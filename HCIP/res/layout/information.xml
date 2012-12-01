@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <SurfaceView android:id="@+id/surfaceView4" android:layout_width="wrap_content" android:layout_height="10dip"></SurfaceView>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/tsn" android:id="@+id/imageView1" android:layout_gravity="center_horizontal" android:scaleType="centerInside" android:layout_height="150dip"></ImageView>
+    <SurfaceView android:layout_height="10dip" android:layout_width="wrap_content" android:id="@+id/surfaceView2"></SurfaceView>
+    <ScrollView android:layout_width="300dip" android:id="@+id/scrollView1" android:layout_gravity="center" android:layout_height="250dip">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="match_parent" android:orientation="vertical">
+        	<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="match_parent">
+            	<TextView android:id="@+id/textView1" 
+            	android:layout_width="wrap_content" 
+            	android:layout_height="wrap_content" android:text="@string/artist"
+            	android:textSize="14dip"
+            	android:textStyle="bold"></TextView>
+            
+            	<TextView android:id="@+id/textView2" 
+            	android:layout_width="wrap_content" 
+            	android:layout_height="wrap_content" android:text="@string/Vincent"
+            	android:textSize="14dip"></TextView>
+        	</LinearLayout>
+        	
+        	<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout3" android:layout_height="match_parent">
+            	<TextView android:id="@+id/textView3" 
+            	android:layout_width="wrap_content" 
+            	android:layout_height="wrap_content" android:text="@string/introdution"
+            	android:textSize="14dip"
+            	android:textStyle="bold"></TextView>
+            
+            	<TextView android:id="@+id/textView4" 
+            	android:layout_width="wrap_content" 
+            	android:layout_height="wrap_content" android:text="@string/intro"
+            	android:textSize="14dip"></TextView>
+        	</LinearLayout>
+        
+        </LinearLayout>
+    </ScrollView>
+    <SurfaceView android:layout_height="10dip" android:layout_width="wrap_content" android:id="@+id/surfaceView3"></SurfaceView>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <SurfaceView android:id="@+id/surfaceView1" android:layout_alignParentRight="true" android:layout_height="50dip" android:layout_width="5dip"></SurfaceView>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:text="@string/moreinfo" android:drawableLeft="@drawable/ic_menu_moreinfo" android:layout_toLeftOf="@+id/surfaceView1" android:layout_alignTop="@+id/surfaceView1" android:layout_alignBottom="@+id/surfaceView1"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button2" android:text="@string/back" android:drawableLeft="@drawable/ic_menu_back" android:layout_toLeftOf="@+id/button1" android:layout_alignTop="@+id/button1" android:layout_alignBottom="@+id/button1"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

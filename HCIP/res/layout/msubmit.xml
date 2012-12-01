@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <SurfaceView android:id="@+id/surfaceView1" android:layout_width="wrap_content" android:layout_height="5dip"></SurfaceView>
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/sub" android:layout_gravity="center" android:scaleType="centerInside" android:layout_height="150dip"></ImageView>
+    <SurfaceView android:id="@+id/surfaceView2" android:layout_width="wrap_content" android:layout_height="5dip"></SurfaceView>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AWName"
+    	android:textSize="14dip"
+        android:textStyle="bold"></TextView>
+    <EditText android:text="" android:layout_width="match_parent" android:id="@+id/editText1" android:layout_height="wrap_content" android:maxLines="1"></EditText>
+    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/art"
+    	android:textSize="14dip"
+        android:textStyle="bold"></TextView>
+    <EditText android:text="" android:layout_width="match_parent" android:id="@+id/editText2" android:layout_height="wrap_content" android:maxLines="1"></EditText>
+    <SurfaceView android:id="@+id/surfaceView3" android:layout_width="wrap_content" android:layout_height="5dip"></SurfaceView>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sub"></Button>
+</LinearLayout>

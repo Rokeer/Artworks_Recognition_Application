@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Welcome!</string>
+    <string name="app_name">ArtWorker</string>
+    <string name="watis">What\'s This?</string>
+    <string name="AW">ArtWorker</string>
+    <string name="back">Back</string>
+    <string name="moreinfo">More...</string>
+    <string name="intro">The Starry Night (Dutch: De sterrennacht) is a painting by Dutch post-impressionist artist Vincent van Gogh. The painting depicts the view outside his sanitarium room window at night, although it was painted from memory during the day. Since 1941 it has been in the permanent collection of the Museum of Modern Art in New York City. Reproduced often, the painting is widely hailed as his magnum opus.</string>
+    <string name="introdution">Intro: </string>
+    <string name="artist">Artist: </string>
+    <string name="Vincent">Vincent van Gogh</string>
+    <string name="sub">Submit</string>
+    <string name="AWName">ArtWork Name</string>
+    <string name="art">Artist</string>
+    <string name="newwatis">Press Middle Button To Recognize...</string>
+</resources>
